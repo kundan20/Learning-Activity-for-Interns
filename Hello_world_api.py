@@ -30,7 +30,6 @@ def process():
     pattern = re.compile(reg)
     match = pattern.findall(url)
     file_name1 = match[0]
-
     block_blob_service = BlockBlobService(account_name='dsconvreport',
                                           account_key='2wIt3xVY2HR5mXfl2489ctyE1CIewgwA0am+jE85HkOfOBKc7Af0KHHb2YS9Z466T+v9KClZXYeht21M3oXFYw==')
 
